@@ -117,11 +117,13 @@ For the hairstylists and salon manager, the application aims to streamline their
 
 # R3 Application architecture
 
+Please open image in a new tab for better clarity.
+
 ![Application architecture diagram](./docs/RPNZL_T3A2_ApplicationArchitecture.jpg)
 
 # R4 User stories
 
-## User personas and user Stories
+## User personas and user stories
 
 ### First time customer
 
@@ -244,4 +246,4 @@ Our Trello board is divided into 5 columns:
 
 ![Screenshot of Trello board - Part A - middle 2](./docs/screenshot-trello-parta-4-mid2.png)
 
-### End of Sprint 1 - 26 November 2023
+### End of Part A
