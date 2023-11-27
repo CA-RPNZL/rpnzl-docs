@@ -115,6 +115,10 @@ For the hairstylists and salon manager, the application aims to streamline their
 
 # R2 Dataflow diagram
 
+Please open image in a new tab for better clarity.
+
+![Dataflow Diagram](./docs/RPNZL_T3A2_DataflowDiagram.png)
+
 # R3 Application architecture
 
 Please open image in a new tab for better clarity.
