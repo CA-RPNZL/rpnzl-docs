@@ -155,6 +155,191 @@ Please open image in a new tab for better clarity.
 - Initially, the hairdressers could sign up for their own account. However, we realised there is nothing stopping the average person from making an account. Therefore, we changed it so only the salon manager can make a hairdresser account.
 
 # R5 Wireframes
+### <b><u>Process</b></u>
+- We initiated the design process by creating low-fidelity wireframes to visualize potential layouts for the website pages. Following the conceptualization phase, we had a meeting to collaboratively evaluate and select the most promising wireframe ideas for each page, arriving on the final layout.
+
+  We progressed to the creation of colored wireframes. Multiple color palette options were generated, and as a team, we discussed the preferred color scheme and font for the site. The selected choices were then applied to develop the colored wireframes, which were further detailed through annotations on a separate page.
+
+## Desktop
+![Desktop SS 1](./docs/desktop_full1.png)
+![Desktop SS 2](./docs/desktop_full2.png)
+## Tablet
+![Tablet SS 1](./docs/tablet_full1.png)
+![Tablet SS 2](./docs/tablet_full2.png)
+## Mobile
+![Mobile SS](./docs/mobile_full.png)
+
+<br>
+
+## <b>Further screenshots of wireframes</b>
+Below are further screenshots of the wireframes including annotated wireframes that provide more detail.
+<details>
+  <summary>Low Fidelity: Wireframe Ideas</summary>
+  
+## Home
+### Desktop
+![LF Desktop Home/Home Nav](./docs/LF_ideas/LF_DesktopHome.png)
+### Mobile/Tablet
+![LF MobTab Home](./docs/LF_ideas/LF_MobTabHome.png)
+
+## Login
+### Desktop
+![LF Desktop Login](./docs/LF_ideas/LF_LoginDesktop.png)
+### Mobile/Tablet
+![LF MobTab Login](./docs/LF_ideas/LF_MobTabLogin.png)
+
+## Sign Up
+### Desktop
+![LF Desktop Sign Up](./docs/LF_ideas/LF_SignUpDesktop.png)
+### Mobile/Tablet
+![LF MobTab Sign Up](./docs/LF_ideas/LF_MobTabSignUp.png)
+
+## Services
+### Desktop
+![LF Desktop Services](./docs/LF_ideas/LF_ServicesDesktop.png)
+### Mobile/Tablet
+![LF MobTab Services](./docs/LF_ideas/LF_MobTabServices.png)
+
+## Contact Us
+### Desktop
+![LF Desktop Contact Us](./docs/LF_ideas/LF_ContactDesktop.png)
+### Mobile/Tablet
+![LF MobTab Contact Us](./docs/LF_ideas/LF_MobTabContact.png)
+
+## About
+### Desktop
+![LF Desktop About](./docs/LF_ideas/LF_AboutDesktop.png)
+### Mobile/Tablet
+![LF MobTab About](./docs/LF_ideas/LF_MobTabAbout.png)
+
+## Customer Portal
+### Desktop
+![LF Desktop Customer Portal](./docs/LF_ideas/LF_CustPortDesktop.png)
+### Mobile/Tablet
+![LF MobTab Customer Portal](./docs/LF_ideas/LF_MobTabCustPort.png)
+
+## Staff Portal
+### Desktop
+![LF Desktop Staff Portal](./docs/LF_ideas/LF_StaffPortDesktop.png)
+### Mobile/Tablet
+![LF MobTab Customer Portal](./docs/LF_ideas/LF_MobTabStaffPort.png)
+
+## Admin Portals
+### Desktop
+![LF Desktop Admin](./docs/LF_ideas/LF_AdminPortDesktop.png)
+### Mobile/Tablet
+![LF MobTab Admin](./docs/LF_ideas/LF_MobAdminPort.png)
+
+## Booking Process Pages
+### Desktop
+![LF Desktop Booking](./docs/LF_ideas/LF_DesktopBooking.png)
+### Mobile/Tablet
+![LF MobTab Booking](./docs/LF_ideas/LF_MobTabBooking.png)
+</details>
+
+<br>
+
+<details>
+  <summary>Final: Low Fidelity</summary>
+
+### Desktop
+![Final Desktop 1](./docs/FLF/FLF_Desktop1.png)
+![Final Desktop 2](./docs/FLF/FLF_Desktop2.png)
+![Final Desktop 3](./docs/FLF/FLF_Desktop3.png)
+![Final Desktop 4](./docs/FLF/FLF_Desktop4.png)
+![Final Desktop 5](./docs/FLF/FLF_Desktop5.png)
+
+### Tablet
+![Final Tablet 1](./docs/FLF/FLF_Tablet1.png)
+![Final Tablet 2](./docs/FLF/FLF_Tablet2.png)
+![Final Tablet 3](./docs/FLF/FLF_Tablet3.png)
+![Final Tablet 4](./docs/FLF/FLF_Tablet4.png)
+
+### Mobile
+![Final Mobile 1](./docs/FLF/FLF_Mobile1.png)
+![Final Mobile 2](./docs/FLF/FLF_Mobile2.png)
+![Final Mobile 3](./docs/FLF/FLF_Mobile3.png)
+![Final Mobile 4](./docs/FLF/FLF_Mobile4.png)
+</details>
+
+<br>
+
+<details>
+  <summary>Coloured Wireframes: Annotated</summary>
+
+## Home
+### Desktop
+![Desktop Home](./docs/desktop_home.png)
+![Desktop Home Nav](./docs/desktop_homeNav.png)
+### Mobile/Tablet
+![MobTab Home](./docs/mobTab_Home.png)
+
+## Login
+### Desktop
+![Desktop Login](./docs/desktop_login.png)
+### Mobile/Tablet
+![MobTab Login](./docs/mobTab_login.png)
+
+## Sign Up
+### Desktop
+![Desktop Sign Up](./docs/desktop_signup.png)
+### Mobile/Tablet
+![MobTab Sign Up](./docs/mobTab_signUp.png)
+
+## Services
+### Desktop
+![Desktop Services](./docs/desktop_services.png)
+### Mobile/Tablet
+![MobTab Services](./docs/mobTab_services.png)
+
+## Contact Us
+### Desktop
+![Desktop Contact Us](./docs/desktop_contactUs.png)
+### Mobile/Tablet
+![MobTab Contact Us](./docs/mobTab_contactUs.png)
+
+## About
+### Desktop
+![Desktop About](./docs/desktop_about1.png)
+![Desktop About 2](./docs/desktop_about2.png)
+### Mobile/Tablet
+![MobTab About](./docs/mobTab_about.png)
+
+## Customer Portal
+### Desktop
+![Desktop Customer Portal](./docs/desktop_custport.png)
+### Mobile/Tablet
+![MobTab Customer Portal](./docs/mobTab_customerport.png)
+
+## Staff Portal
+### Desktop
+![Desktop Staff Portal](./docs/desktop_staffport.png)
+### Mobile/Tablet
+![MobTab Staff Portal](./docs/mobTab_staffport.png)
+
+## Admin Portals
+### Desktop
+![Desktop Admin 1&2](./docs/desktop_admin12.png)
+![Desktop Admin 3&4](./docs/desktop_admin34.png)
+![Desktop Admin 5](./docs/desktop_admin5.png)
+### Mobile/Tablet
+![MobTab Admin 1&2](./docs/mobTab_admin12.png)
+![MobTab Admin 3&4](./docs/mobTab_admin34.png)
+![MobTab Admin 5](./docs/mobTab_admin5.png)
+
+## Booking Process Pages
+### Desktop
+![Desktop Booking 1&2](./docs/desktop_booking12.png)
+![Desktop Booking 3](./docs/desktop_booking3.png)
+![Desktop Booking 4](./docs/desktop_booking4.png)
+![Desktop Booking 5](./docs/desktop_booking5.png)
+### Mobile/Tablet
+![MobTab Booking 1&2&3](./docs/mobTab_booking123.png)
+![MobTab Booking 4&5](./docs/mobTab_booking45.png)
+
+</details>
+
+<br>
 
 # R6 Project management
 
