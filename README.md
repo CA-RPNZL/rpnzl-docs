@@ -155,6 +155,9 @@ Please open image in a new tab for better clarity.
 - Initially, the hairdressers could sign up for their own account. However, we realised there is nothing stopping the average person from making an account. Therefore, we changed it so only the salon manager can make a hairdresser account.
 
 # R5 Wireframes
+
+[Figma Link](https://www.figma.com/file/bYxlYHjWs7hUZ7zzUOx1P3/RPNZL?type=design&node-id=1%3A13&mode=design&t=BYAt8CUQpq7hQ34U-1)
+
 ### <b><u>Process</b></u>
 - We initiated the design process by creating low-fidelity wireframes to visualize potential layouts for the website pages. Following the conceptualization phase, we had a meeting to collaboratively evaluate and select the most promising wireframe ideas for each page, arriving on the final layout.
 
