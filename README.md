@@ -445,5 +445,3 @@ Our Trello board is divided into 5 columns:
 
 #### Screenshot 2 of 2
 ![Screenshot of Trello board - Part A - end (2 of 2)](./docs/trelloSS_end2.png)
-
-### End of Part A
