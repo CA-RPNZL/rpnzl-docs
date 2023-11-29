@@ -400,15 +400,15 @@ Our Trello board is divided into 5 columns:
 
 ### Other guidelines
 
-- Using the card template, select Create card from template to create a new card.
-- Every card should have an assignee (unless it’s in To do / Resources).
-- very card should have a due date (unless it’s in To do / Resources).
-- Every card should have a label indicating difficulty (Simple / Challenging / Complex).
+- Using the card template, select **Create card from template** to create a new card.
+- Every card should have an assignee (unless it’s in **To do** / **Resources**).
+- Every card should have a due date (unless it’s in **To do** / **Resources**).
+- Every card should have a label indicating difficulty (**Simple** / **Challenging** / **Complex**).
 - During sprint planning:
-    - cards in To do should be allocated to a team member.
-    - cards should be given the appropriate sprint label (Sprint 1 / Sprint 2 / Sprint 3).
-    - cards should be moved to In progress when they're being worked on.
-- If a card is not completed by the end of sprint, the card should be labelled with both the original and next sprint (e.g. a task was complex so it was labelled with Sprint 2 and Sprint 3).
+    - cards in **To do** should be allocated to a team member.
+    - cards should be given the appropriate sprint label (**Sprint 1** / **Sprint 2** / **Sprint 3**).
+    - cards should be moved to **In progress** when they're being worked on.
+- If a card is not completed by the end of sprint, the card should be labelled with both the original and next sprint (e.g. a task was complex so it was labelled with **Sprint 2** and **Sprint 3**).
 - In the card description, enter a summary of the task (if applicable).
 - In the card description, enter the name of the primary lead on the feature and the reviewer.
 - Use checklists feature.
