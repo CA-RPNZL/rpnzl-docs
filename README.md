@@ -65,7 +65,7 @@ Additionally, the salon manager (administrator) can:
 - update existing salon services,
 - remove salon services,
 - register hairstylists for a staff account, and
-- view all appointments.
+- view, create, update and delete any/all appointments.
 
 ### General pages
 Users can find information about:
