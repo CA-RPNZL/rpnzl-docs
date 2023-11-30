@@ -69,9 +69,9 @@ Additionally, the salon manager (administrator) can:
 
 ### General pages
 Users can find information about:
-- the salon, reviews and images
-- the hairstylists
-- the services available
+- the salon, reviews and images,
+- the hairstylists,
+- the services available, and
 - the salon’s contact details.
 
 ## Target audience
@@ -152,7 +152,7 @@ Please open image in a new tab for better clarity.
     - photos of the hairstylist’s previous works.
 
   Therefore we introduced 2 new features to our system.
-- Initially, the hairdressers could sign up for their own account. However, we realised there is nothing stopping the average person from making an account. Therefore, we changed it so only the salon manager can make a hairdresser account.
+- Initially, the hairstylists could sign up for their own account. However, we realised there is nothing stopping the average person from making an account. Therefore, we changed it so only the salon manager can make a hairstylist's account.
 
 # R5 Wireframes
 
@@ -161,7 +161,7 @@ Please open image in a new tab for better clarity.
 ### <b><u>Process</b></u>
 - We initiated the design process by creating low-fidelity wireframes to visualize potential layouts for the website pages. Following the conceptualization phase, we had a meeting to collaboratively evaluate and select the most promising wireframe ideas for each page, arriving on the final layout.
 
-  We progressed to the creation of colored wireframes. Multiple color palette options were generated, and as a team, we discussed the preferred color scheme and font for the site. The selected choices were then applied to develop the colored wireframes, which were further detailed through annotations on a separate page.
+  We progressed to the creation of coloured wireframes. Multiple colour palette options were generated, and as a team, we discussed the preferred colour scheme and font for the site. The selected choices were then applied to develop the coloured wireframes, which were further detailed through annotations on a separate page.
 
 ## Desktop
 ![Desktop SS 1](./docs/desktop_full1.png)
