@@ -18,6 +18,150 @@ Developed by [Carmina](https://github.com/CarminaF), [Emily](https://github.com/
     - [Screenshots](#screenshots)
 
 
+# Testing
+
+## Manual Backend Testing: Development and Production
+
+- USER 
+    - LOGIN (User: Hair stylist, Admin or Client)
+        - Development URL: http://localhost:3000/login
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/login
+        - HTTP Method: POST
+        - Expected output: JWT, userId, isAdmin, isHairstylist
+        - Result: PASS
+![Dev Login](./docs/BackendTesting/DEV%20LOGIN%20(User%20Hairstylist%20Admin%20Client).png)
+![Prod Login](./docs/BackendTesting/PROD%20LOGIN%20(User%20Hairstylist%20Admin%20Client).png)
+
+
+    - SIGNUP
+        - Development URL: http://localhost:3000/users 
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/users
+        - HTTP Method: POST
+        - Expected output: User details
+        - Result: PASS
+![Dev signup](./docs/BackendTesting/DEV%20SIGNUP.png)
+![Prod signup](./docs/BackendTesting/PROD%20SIGNUP.png)
+
+
+    - UPDATE PERSONAL DETAILS
+        - Development URL: http://localhost:3000/users/id/:id
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/users/id/:id
+        - HTTP Method: PATCH
+        - Expected output: User’s updated details
+        - Result: PASS
+![Dev update personal details](./docs/BackendTesting/DEV%20UPDATE%20PERSONAL%20DETAILS.png)
+![Prod update personal details](./docs/BackendTesting/PROD%20UPDATE%20PERSONAL%20DETAILS.png)
+
+
+
+    - UPDATE PASSWORD
+        - Development URL: http://localhost:3000/change-password/:id
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/change-password/:id
+        - HTTP Method: PATCH
+        - Expected output: “Successfully change password”, able to login
+        - Result: PASS
+![Dev update password](./docs/BackendTesting/DEV%20UPDATE%20PASSWORD.png)
+![Prod update password](./docs/BackendTesting/PROD%20UPDATE%20PASSWORD.png)
+
+
+    - DELETE USER
+        - Development URL: http://localhost:3000/users/id/:id
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/users/id/:id
+        - HTTP Method: DELETE
+        - Expected output: “User account and future appointments deleted successfully.” + deleted users’ details
+        - Result: PASS
+![Dev delete user](./docs/BackendTesting/DEV%20DELETE%20USER.png)
+![Prod delete user](./docs/BackendTesting/PROD%20DELETE%20USER.png)
+
+
+    - ALL USERS (Admin)
+        - Development URL: http://localhost:3000/users
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/users
+        - HTTP Method: GET
+        - Expected output: 
+        - Result: PASS
+![Dev all users (Admin)](./docs/BackendTesting/DEV%20ALL%20USERS%20(Admin).png)
+![Prod all users (Admin)](./docs/BackendTesting/PROD%20ALL%20USERS%20(Admin).png)
+
+
+    - GET USER (Self)
+        - Development URL: http://localhost:3000/users/id/:id
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/users/id/:id
+        - HTTP Method: GET
+        - Expected output: User’s details
+        - Result: PASS
+![Dev get user](./docs/BackendTesting/DEV%20GET%20USER%20(Self).png)
+![Prod get user](./docs/BackendTesting/PROD%20GET%20USER%20(Self).png)
+
+- SERVICES
+    - ALL SERVICES
+        - Development URL: http://localhost:3000/services
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/services
+        - HTTP Method: GET
+        - Expected output: All services
+        - Result: PASS
+![Dev all services](./docs/BackendTesting/DEV%20ALL%20SERVICES.png)
+![Prod all services](./docs/BackendTesting/PROD%20ALL%20SERVICES.png)
+
+
+- APPOINTMENTS
+    - GET APPOINTMENTS FOR CLIENT
+        - Development URL: http://localhost:3000/appointments/user/:userId?pastAppt=false
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/appointments/user/:userId?pastAppt=false
+        - HTTP Method: GET
+        - Expected output: All future appointments for a client
+        - Result: PASS
+![Dev get appointments for client](./docs/BackendTesting/DEV%20GET%20APPOINTMENTS%20FOR%20CLIENT.png)
+![Prod get appointments for client](./docs/BackendTesting/PROD%20GET%20APPOINTMENTS%20FOR%20CLIENT.png)
+
+
+    - GET APPOINTMENTS FOR HAIRSTYLIST 
+        - Development URL: http://localhost:3000/appointments/hairstylist/:userid?pastAppt=false
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/appointments/hairstylist/:userid?pastAppt=false
+        - HTTP Method: GET
+        - Expected output: All future appointments where the user is the hairstylist
+        - Result: PASS
+![Dev get all appointments for hairstylist](./docs/BackendTesting/DEV%20GET%20ALL%20APPOINTMENTS%20FOR%20HAIRSTYLIST.png)
+![Prod get appointment for hairstylist](./docs/BackendTesting/PROD%20GET%20ALL%20APPOINTMENTS%20FOR%20HAIRSTYLIST.png)
+
+    - GET SINGLE APPOINTMENT
+        - Development URL: http://localhost:3000/appointments/id/:apptId
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/appointments/id/:apptId
+        - HTTP Method: GET
+        - Expected output: All details for one appointment
+        - Result: PASS
+![Dev get single appointment](./docs/BackendTesting/DEV%20GET%20SINGLE%20APPOINTMENT.png)
+![Prod get single appointment](./docs/BackendTesting/PROD%20GET%20SINGLE%20APPOINTMENT.png)
+
+    - DELETE APPOINTMENT
+        - Development URL: http://localhost:3000/appointments/id/:apptId
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/appointments/id/:apptId
+        - HTTP Method: DELETE
+        - Expected output: Details of the deleted appointment
+        - Result: PASS
+![Dev delete appointment](./docs/BackendTesting/DEV%20DELETE%20APPOINTMENT.png)
+![Prod delete appointment](./docs/BackendTesting/PROD%20DELETE%20APPOINTMENT.png)
+
+    - BOOK APPOINTMENT
+        - Development URL: http://localhost:3000/appointments
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/appointments
+        - HTTP Method: POST
+        - Expected output: Details of the new appointment
+        - Result: PASS
+![Dev book appointment](./docs/BackendTesting/DEV%20BOOK%20APPOINTMENT.png)
+![Prod book appointment](./docs/BackendTesting/PROD%20BOOK%20APPOINTMENT.png)
+
+
+    - UPDATE APPOINTMENT
+        - Development URL: http://localhost:3000/appointments/id/:apptId
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/appointments/id/:id
+        - HTTP Method: PATCH
+        - Expected output: Details of the updated appointment
+        - Result: PASS
+![Dev update appointment](./docs/BackendTesting/DEV%20UPDATE%20APPOINTMENT.png)
+![Prod update appointment](./docs/BackendTesting/PROD%20UPDATE%20APPOINTMENT.png)
+
+
 
 # R1 Description
 
