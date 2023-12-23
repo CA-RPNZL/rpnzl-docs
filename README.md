@@ -103,6 +103,45 @@ Developed by [Carmina](https://github.com/CarminaF), [Emily](https://github.com/
 ![Dev all services](./docs/BackendTesting/DEV%20ALL%20SERVICES.png)
 ![Prod all services](./docs/BackendTesting/PROD%20ALL%20SERVICES.png)
 
+    - GET SINGLE SERVICE
+        - Development URL: http://localhost:3000/services/id/:id
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/services/id/:id
+        - HTTP Method: GET
+        - Expected output: One single service
+        - Result: PASS
+![Dev get single service](./docs/BackendTesting/DEV%20GET%20SINGLE%20SERVICE.png)
+![Prod get single service](./docs/BackendTesting/PROD%20GET%20SINGLE%20SERVICE.png)
+
+
+
+    - ADD SERVICE
+        - Development URL: http://localhost:3000/services
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/services
+        - HTTP Method: POST
+        - Expected output: Details of added service + id
+        - Result: PASS
+![Dev add service](./docs/BackendTesting/DEV%20ADD%20SERVICE.png)
+![Prod add service](./docs/BackendTesting/PROD%20ADD%20SERVICE.png)
+
+    - UPDATE SERVICE
+        - Development URL: http://localhost:3000/services/id/:id
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/services/id/:id
+        - HTTP Method: PATCH
+        - Expected output: Details of the updated service
+        - Result: PASS
+![Dev update service](./docs/BackendTesting/DEV%20UPDATE%20SERVICE.png)
+![Prod update service](./docs/BackendTesting/PROD%20UPDATE%20SERVICE.png)
+
+
+    - DELETE SERVICE
+        - Development URL: http://localhost:3000/services/id/:id
+        - Production URL: https://ca-rpnzl-15265a6e99eb.herokuapp.com/services/id/:id
+        - HTTP Method: DELETE
+        - Expected output: Details of the deleted service
+        - Result: PASS
+![Dev delete service](./docs/BackendTesting/DEV%20DELETE%20SERVICE.png)
+![Prod delete service](./docs/BackendTesting/PROD%20DELETE%20SERVICE.png)
+
 
 - APPOINTMENTS
     - GET APPOINTMENTS FOR CLIENT
