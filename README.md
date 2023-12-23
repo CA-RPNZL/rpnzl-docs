@@ -36,7 +36,94 @@ http://rpnzl.studio/
 
 ## Libraries
 
-*[^ Jump to Part B Table of contents](#part-b-table-of-contents)*
+### Server 
+#### <u><b>[bcryptjs](https://www.npmjs.com/package/bcrypt)</u></b>
+
+- Bcrypt hashes and salts passwords when being stored in the database to protect user accounts. It converts plaintext passwords into hashed strings. In the app, it is used for securing user passwords and user authorisation and authentication. 
+
+#### <u><b>[cors](https://www.npmjs.com/package/cors)</u></b> 
+
+- Cross-Origin Resource Sharing (CORS) is a middleware used for integrating applications. It enables the interaction between domains, which is completed through a HTTP-header based mechanism. This allows the server to specify domains other than its own that are permitted to interact. 
+
+#### <u><b>[express](https://www.npmjs.com/package/express)</u></b>
+
+- Is a Node.js framework that is flexible and streamlines the development of React web applications. it also provides a set of features and tools for applications. In the app, it aids through simplifying server creation and handles requests, routes and responses in the app. 
+
+#### <u><b>[helmet](https://www.npmjs.com/package/helmet)</u></b>
+
+- Is a collection of security middleware functions for Express.js that takes HTML tags and outputs plain HTML tags. In the app, it is used to add security and mitigate some common web vulnerabilities.  
+
+#### <u><b>[dotenv](https://www.npmjs.com/package/dotenv)</u></b> 
+
+- A Node.js module that manages environment variables from the .env file. In the app it is used on both the client-side and server-side to handle configuration settings and the securing of sensitive data such as database credentials and API keys. It also makes sure they are not saved to the source control system.
+
+#### <u><b>[mongoose](https://www.npmjs.com/package/mongoose)</u></b>
+
+- A Node.js Object Data Modeling (ODM) library that is used for MongoDB. It provides a variety of features such as schema-based solutions for modeling to make it easier to work and interact with MongoDB. For the app, we used Mongoose to create queries for creating, reading, updating and deleting data in the MongoDB database through HTTP methods.  
+
+#### <u><b>[nodemon](https://www.npmjs.com/package/nodemon)</u></b>
+
+- Tool used in Node.js which monitors changes in the source code to automatically restart the server when changes are detected. In the app, this has aided in streamlining the development process through avoiding manual server restarts for a more efficient workflow.  
+
+#### <u><b>[jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)</u></b>
+
+- A library used for the creation and verification of JSON Web Tokens (JWTs). It creates and manages JWTs, which in the app, are used to transmit admin and user data between the backend and frontend as a JSON object. This is used to authenticate the admin and user profiles and authorises the profiles for specific actions. For example, only the admin will be able to update, delete and add services, whereas a user will be able to view services.   
+
+<br>
+
+### Client 
+
+#### <u><b>[axios](https://www.npmjs.com/package/axios)</u></b>  
+
+- A promise-based HTTP client for both the browser and node.js. It’s able to run in node.js and the browser with the same codebase. For client-side it uses XHLHttpRequests and server-side uses the native node.js http module. For the app, it is used to make HTTP requests to external APIs and handle the responses.
+
+#### <u><b>[react-bootstrap](https://www.npmjs.com/package/react-bootstrap)</u></b> 
+
+- CSS framework that is easy to integrate into a React application for enhanced design and functionality. In the app, it is used for various components to aid in the functionality of the application. 
+
+#### <u><b>[react-router-dom](https://www.npmjs.com/package/react-router-dom )</u></b>
+
+- Library for routing in the front-end. In the app, it provides a way to define the front-end routes to ensure that users are navigated to the right page when clicking links, buttons and forms. 
+
+#### <b><u>[font-awesome](https://fontawesome.com/)</b></u>
+
+- An icon and font library. This is used through-out the app for various icons. 
+
+#### <u><b>[react-toastify](https://www.npmjs.com/package/react-toastify)</u></b>
+
+- Is a component for pop-up notifications in React apps. In the app, it is used for providing error, warning or success notifications when using the app. This is present on the ‘Sign-up’ and ‘User-Portal’. 
+
+#### <u><b>[react-responsive-carousel](https://www.npmjs.com/package/react-responsive-carousel)</u></b>
+
+- Is a component for building carousels in React. In the app, it is used for both image carousels on the ‘About’ page and for reviews on the ‘Home’ page. 
+
+#### <u><b>[react-loader-spinner](https://www.npmjs.com/package/react-loader-spinner)</u></b> 
+
+- Is a component used for async await operations before the data has been loaded onto the screen. In the app, this is used to provide the user with a loading screen and indicate that their request is being processed. 
+
+#### <u><b>[react-dateslot-picker](https://www.npmjs.com/package/react-dateslot-picker)</u></b> 
+
+- Component used for the booking process for the user to select a time slot for their appointments. A user is able to select a date from the calendar then their desired timeslot to reserve the booking.
+
+<br>
+
+### Testing
+
+#### <u><b>[Jest](https://jestjs.io/)</u></b> 
+
+- JavaScript testing framework that supports a variety of tests that include snapshot testing and asynchronous testing. Jest is used to write and test unit and integration tests to ensure the functionality of the application. 
+
+#### <u><b>[@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom) & @testing-library/react</u></b> 
+
+- Dependencies relating to the Jest testing framework which provides testing tools for React component testing. 
+
+#### <u><b>[@babel/preset-env, babel-jest & @babel/preset-react](https://babeljs.io/docs/presets)</u></b>
+
+- Babel dependencies that advance babel capabilities by supporting transformations of React JSX syntax and ensuring Jest works with Babel.
+
+#### <u><b>[Supertest](https://www.npmjs.com/package/supertest)</u></b>
+
+- Is used for testing on the server-side of the application ensuring that it is functional. It works in conjunction with Jest and is used for testing endpoints through simulating HTTP requests and their responses.
 
 ## Source control methodology
 
