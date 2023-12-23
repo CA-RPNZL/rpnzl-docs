@@ -427,6 +427,10 @@ Google Drive: [RPNZL Manual testing](https://docs.google.com/spreadsheets/d/1kG-
 
 ### End of Part B Week 3 / end of Sprint 3 - 24 December 2023
 
+![Screenshot of Trello board - Part B - mid (1 of 2)](./docs/screenshot-trello-partb-3-end1.png)
+
+![Screenshot of Trello board - Part B - mid (2 of 2)](./docs/screenshot-trello-partb-3-end2.png)
+
 *[^ Jump to Part B Table of contents](#part-b-table-of-contents)*
 
 ## Part A changes
