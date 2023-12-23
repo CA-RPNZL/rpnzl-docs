@@ -109,7 +109,7 @@ http://rpnzl.studio/
 
 <br>
 
-### Testing
+### <a id="libraries-testing"></a>Testing
 
 #### <u><b>[Jest](https://jestjs.io/)</u></b> 
 
@@ -129,9 +129,77 @@ http://rpnzl.studio/
 
 ## Source control methodology
 
+In our collaborative effort in building RPNZL, source control utilised was the industry standard Git. The client and server-side git repositories were both set up on GitHub under a GitHub organisation. Each repository initially had a dev and main branch and feature branches were then branched off of dev.
+
+- Feature branches allowed for parallel development where our developers are able to work on a feature in isolation.
+- The main branch is the stable branch used for deploying to production.
+- The dev branch is used for the integration of features. Dev was then merged to main at the end of each week.
+
+Frequent communication and code reviews were crucial in maintaining code quality and consistency with at least one person reviewing each pull request from the feature branch to dev. Synchronising when to push code to dev and pulling latest changes from dev to the feature branch ensures minimal merge conflicts.
+
+Regular commits were also made and commit messages were in the following form: “feat: \<feature worked on\>” or “fix: \<bug that was fixed\>” to illustrate work done on each commit. Pull requests were utilised for code review and once completed, the link to the pull requests were added to their corresponding Trello card.
+
+*Please refer to the [Screenshots](#part-b-screenshots) section for additional screenshots.*
+
+
 *[^ Jump to Part B Table of contents](#part-b-table-of-contents)*
 
 ## Project management methodology
+
+### Project management board
+
+For Part B, we continued using the Trello board to manage our tasks: [https://trello.com/b/Jz9YZmmt/rpnzl](https://trello.com/b/Jz9YZmmt/rpnzl)
+
+We followed the same Trello board guidelines as outlined in [Part A](#trello-board-guidelines).
+
+The only major change was the introduction of two extra columns (**Done - Sprint 1** and **Done - Sprint 2**). Instead of archiving cards once a sprint was finished, we decided to separate cards that were completed in each sprint. This provides visibility for assignment purposes, but also allows us to visually celebrate all that we have accomplished at the end of a sprint.
+
+### Sprints and stand ups
+
+Our sprints remained as two week blocks, as planned in Part A.
+- **Sprint 1** - Sunday 12 November - Saturday 25 November
+Sprint planning meeting: Sunday 12 November @ 7:00pm ACDT / 7:30pm AEDT
+    - **Week 1** - Discussed each requirement of Part A as a team. This covered what should be included for each requirement, as well as any ideas or rough sketches.
+    - **Week 2** - Drafted the content / diagrams as per the requirements and began the review process.
+- **Sprint 2** - Sunday 26 November - Saturday 9 December
+Sprint planning meeting: Monday 27 November @ 7:00pm ACDT / 7:30pm AEDT
+    - **Week 1** - This was week 3 for Part A. Finalised the content / diagrams, addressed feedback and made continuous improvements. After all requirements were completed, everything was collated and sent to each team member for approval. Once approved, Part A was submitted for marking.
+    - **Week 2** - This was week 1 for Part B. Prepared the foundations of our web application. This included getting our deployment servers and MongoDB Cloud set up, as well as creating static pages (client side), models and controllers (server side).
+- **Sprint 3** - Sunday 10 December - Sunday 23 December
+Sprint planning meeting: Sunday 10 December @ 7:00pm ACDT / 7:30pm AEDT
+    - **Week 1** - We spent week 1 focusing on pulling data in dynamically and getting the functionality up and running. This also involved researching and implementing appropriate packages.
+    - **Week 2** - Week 2 was a wrap up on the build, finalising functionality, cleaning up code comments and bugs, as well as trying to make the code more DRY. Testing and documentation was also completed in week 2. Once reviewed, the project was collated and sent to each team member for approval. Once approved, Part B was submitted for marking.
+
+During our sprint planning meetings, we would discuss:
+- what tasks needed to be completed,
+- the priority / order of tasks,
+- task allocation,
+- the high level approach,
+- ideal timelines and
+- the review process.
+
+After each sprint planning meeting, cards were created on Trello.
+
+The team also took an agile approach, to accommodate any learnings and experiences we encounter.
+
+Examples include:
+
+- Due dates could be pushed if we found something more challenging than originally scoped.
+- Additional tasks were created, and reprioritised, if there was something we didn’t account for during planning.
+
+We continued our daily standups at 6:30pm ACDT / 7pm AEDT, Monday to Friday. On Saturdays and Sundays, there were several ad hoc meetings whenever we needed assistance, or felt like it was beneficial to regroup.
+
+We also continued to take meeting notes to accommodate for any absences, as well as communicated freely via Discord.
+
+During Part A, our standups were longer with more discussion around planning. For Part B, we kept the standups short and addressed the questions below:
+
+- What did you achieve today?
+- What’s the plan for the rest of the day?
+- Do you have any road blockers?
+
+Additionally, we spent some time going over any ‘other notes or questions’ - such as reminders and discussing Discord standup questions.
+
+*Please refer to the [Screenshots](#part-b-screenshots) section for additional screenshots and [Part A - R6 Project management](#r6-project-management).*
 
 *[^ Jump to Part B Table of contents](#part-b-table-of-contents)*
 
@@ -656,6 +724,7 @@ Below are further screenshots of the wireframes including annotated wireframes t
   <summary>Coloured Wireframes: Annotated</summary>
 
 ### Home
+
 #### Desktop
 ![Desktop Home](./docs/desktop_home.png)
 ![Desktop Home Nav](./docs/desktop_homeNav.png)
@@ -663,30 +732,35 @@ Below are further screenshots of the wireframes including annotated wireframes t
 ![MobTab Home](./docs/mobTab_Home.png)
 
 ### Login
+
 #### Desktop
 ![Desktop Login](./docs/desktop_login.png)
 #### Mobile/Tablet
 ![MobTab Login](./docs/mobTab_login.png)
 
 ### Sign Up
+
 #### Desktop
 ![Desktop Sign Up](./docs/desktop_signup.png)
 #### Mobile/Tablet
 ![MobTab Sign Up](./docs/mobTab_signUp.png)
 
 ### Services
+
 #### Desktop
 ![Desktop Services](./docs/desktop_services.png)
 #### Mobile/Tablet
 ![MobTab Services](./docs/mobTab_services.png)
 
 ### Contact Us
+
 #### Desktop
 ![Desktop Contact Us](./docs/desktop_contactUs.png)
 #### Mobile/Tablet
 ![MobTab Contact Us](./docs/mobTab_contactUs.png)
 
 ### About
+
 #### Desktop
 ![Desktop About](./docs/desktop_about1.png)
 ![Desktop About 2](./docs/desktop_about2.png)
@@ -694,18 +768,21 @@ Below are further screenshots of the wireframes including annotated wireframes t
 ![MobTab About](./docs/mobTab_about.png)
 
 ### Customer Portal
+
 #### Desktop
 ![Desktop Customer Portal](./docs/desktop_custport.png)
 #### Mobile/Tablet
 ![MobTab Customer Portal](./docs/mobTab_customerport.png)
 
 ### Staff Portal
+
 #### Desktop
 ![Desktop Staff Portal](./docs/desktop_staffport.png)
 #### Mobile/Tablet
 ![MobTab Staff Portal](./docs/mobTab_staffport.png)
 
 ### Admin Portals
+
 #### Desktop
 ![Desktop Admin 1&2](./docs/desktop_admin12.png)
 ![Desktop Admin 3&4](./docs/desktop_admin34.png)
@@ -716,6 +793,7 @@ Below are further screenshots of the wireframes including annotated wireframes t
 ![MobTab Admin 5](./docs/mobTab_admin5.png)
 
 ### Booking Process Pages
+
 #### Desktop
 ![Desktop Booking 1&2](./docs/desktop_booking12.png)
 ![Desktop Booking 3](./docs/desktop_booking3.png)
