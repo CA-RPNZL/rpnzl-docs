@@ -32,11 +32,13 @@ http://rpnzl.studio/
     - [Manual frontend testing: development and production](#manual-frontend-testing-development-and-production)
     - [Manual backend testing: development and production](#manual-backend-testing-development-and-production)
 - [Screenshots](#part-b-screenshots)
+- [Part A changes](#part-a-changes)
 
 
 ## Libraries
 
-### Server 
+### Server
+
 #### <u><b>[bcryptjs](https://www.npmjs.com/package/bcrypt)</u></b>
 
 - Bcrypt hashes and salts passwords when being stored in the database to protect user accounts. It converts plaintext passwords into hashed strings. In the app, it is used for securing user passwords and user authorisation and authentication. 
@@ -135,9 +137,39 @@ http://rpnzl.studio/
 
 ## Task delegation methodology
 
+In the orchestration of task delegation, our team implemented an effective Kanban board system, showcasing an exemplary balance between acknowledging team members' strengths and addressing their weaknesses in alignment with the project's requirements. This meticulous approach was evident in our use of a Kanban board that featured tickets thoughtfully and collaboratively assigned to team members. Enhancing our management capabilities, Trello was our primary tool for task delegation and tracking.
+
+Leveraging Trello's features, we employed tags to signify the sprint phase, complexity level (ranging from simple to complex which was subjective to each team member), assignment of team members, Git commits and deadlines for each task. This visual representation (see screenshots below for reference), allowed for a comprehensive overview of the project's status and individual responsibilities. Simultaneously, Discord served as our main hub for communication and collaboration, seamlessly integrated with the Trello board. This dual-channel approach fostered a dynamic and efficient communication structure, ensuring that the team remained well-connected and well-informed throughout the project's lifecycle.
+
+The team's strategic approach to task delegation extended beyond just the assigned tasks, as it took into account the individual strengths and weaknesses of each team member. Initially, Carmina and Emily, leveraging their strengths in HTML, CSS and UI, collaborated on the frontend, focusing on UI and page design. Meanwhile, Steve and Helen, feeling proficient in backend technologies, concentrated on the backend, setting up models, schemas, and controllers. This division of tasks allowed for a harmonious blend of expertise and ensured that each team member contributed optimally to their respective domains. Furthermore, the team maintained an agile mindset, readily adapting to unforeseen challenges by advising early if someone felt uncomfortable in their assigned role, fostering an environment of mutual support and continuous improvement
+
+Administratively we took turns in replying to the Stand-Ups requested by Alex on Discord, taking screenshots of our Trello board to track progress, along with merging our Dev branch to our Main for both our Client and Server repos.
+
+During Part A we discussed everything as a group, developed and produced the content and then had the whole team review before finalising the item. This was completed as a Google doc collaboratively before transitioning it to a markdown file. Whereas in Part B of this assignment, as stated above, we split into a backend and frontend team. Each individual then took on a page to start developing. Once ready, a request for review would be sent to one other team member, before moving on to the next task. The team used our daily stand-ups to navigate progress and held a sprint planning meeting every 2nd week to discuss major successes, developments and plans to reach our end goal.
+
+*Please refer to the below screenshots, as well as the [Screenshots](#part-b-screenshots) section for additional screenshots.*
+
+![Task management screen 1](./docs/partb-task-management-screen01.png)
+
+![Task management screen 1](./docs/partb-task-management-screen02.png)
+
+![Task management screen 1](./docs/partb-task-management-screen03.png)
+
+![Task management screen 1](./docs/partb-task-management-screen04.png)
+
+![Task management screen 1](./docs/partb-task-management-screen05.png)
+
+![Task management screen 1](./docs/partb-task-management-screen06.png)
+
 *[^ Jump to Part B Table of contents](#part-b-table-of-contents)*
 
 ## Testing
+
+### Manual frontend testing: development and production
+
+Google Drive: [RPNZL Manual testing](https://docs.google.com/spreadsheets/d/1kG-xux3s5kOLra6acnPa56jL2x_x2DT9kG-ofwZRCmk/edit?usp=sharing)
+
+![Task management screen 1](./docs/partb-RPNZL-manual-testing.png)
 
 ### Manual backend testing: development and production
 
@@ -316,26 +348,31 @@ http://rpnzl.studio/
 
 ## <a id="part-b-screenshots"></a> Screenshots
 
-### End of Part A Week 1 / end of Sprint 2 - 10 December 2023
+### Start of Part B Week 1 / end of Sprint 2 - 10 December 2023
+![Screenshot of Trello board - Part B - start](./docs/screenshot-trello-partb-1-start1.png)
 
-### End of Part A Week 2 - 17 December 2023
+### Part B Week 2 / start of Sprint 3 - 17 December 2023
 
-### End of Part A Week 3 / end of Sprint 3 - 24 December 2023
+![Screenshot of Trello board - Part B - mid (1 of 2)](./docs/screenshot-trello-partb-2-mid1.png)
+
+![Screenshot of Trello board - Part B - mid (2 of 2)](./docs/screenshot-trello-partb-2-mid2.png)
+
+### End of Part B Week 3 / end of Sprint 3 - 24 December 2023
 
 *[^ Jump to Part B Table of contents](#part-b-table-of-contents)*
 
-***
+## Part A changes
 
-## PART A Changes
-
-- Changes to Admin Portal Styling, which included having multiple buttons for CRUD operations, styling of modal/pop-up.
+- Changes to Admin Portal styling, which included having multiple buttons for CRUD operations, styling of modal/pop-up.
 - Some styling changes to Booking confirmation.
 - Added pop-up notifications to the website.
 - Added a loader to the site for when different elements are being loaded by the website for a enhanced user experience.
 - User portal and staff portal was combined into one, due to time constraints.
+- Customers and stylists tab in Admin Portal was combined into one, due to time constraints.
 
-<br>
-<br>
+*[^ Jump to Part B Table of contents](#part-b-table-of-contents)*
+
+***
 
 # Part A
 
