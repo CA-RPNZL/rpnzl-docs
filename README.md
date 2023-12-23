@@ -29,7 +29,7 @@ http://rpnzl.studio/
 - [Task delegation methodology](#task-delegation-methodology)
 - [Testing](#testing)
     - [Formal testing](#formal-testing)
-    - [Manual bfrontend testing: development and production](#manual-backend-testing-development-and-production)
+    - [Manual frontend testing: development and production](#manual-frontend-testing-development-and-production)
     - [Manual backend testing: development and production](#manual-backend-testing-development-and-production)
 - [Screenshots](#part-b-screenshots)
 
@@ -54,7 +54,11 @@ http://rpnzl.studio/
 
 ### Manual backend testing: development and production
 
-#### User
+- [Users](#manual-testing-users)
+- [Services](#manual-testing-services)
+- [Appointments](#manual-testing-appointments)
+
+#### <a id="manual-testing-users"></a>Users
 
 ##### Log in (User: hairstylist, admin or client)
     - Development URL: http://localhost:3000/login
@@ -134,7 +138,7 @@ http://rpnzl.studio/
 
 ![Prod get user](./docs/BackendTesting/PROD%20GET%20USER%20(Self).png)
 
-#### Services
+#### <a id="manual-testing-services"></a>Services
 
 ##### All services
     - Development URL: http://localhost:3000/services
@@ -148,7 +152,7 @@ http://rpnzl.studio/
 ![Prod all services](./docs/BackendTesting/PROD%20ALL%20SERVICES.png)
 
 
-#### Appointments
+#### <a id="manual-testing-appointments"></a>Appointments
 
 ##### Get appointments for client
     - Development URL: http://localhost:3000/appointments/user/:userId?pastAppt=false
