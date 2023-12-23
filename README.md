@@ -326,6 +326,17 @@ http://rpnzl.studio/
 
 ***
 
+## PART A Changes
+
+- Changes to Admin Portal Styling, which included having multiple buttons for CRUD operations, styling of modal/pop-up.
+- Some styling changes to Booking confirmation.
+- Added pop-up notifications to the website.
+- Added a loader to the site for when different elements are being loaded by the website for a enhanced user experience.
+- User portal and staff portal was combined into one, due to time constraints.
+
+<br>
+<br>
+
 # Part A
 
 ## Part A Table of contents
